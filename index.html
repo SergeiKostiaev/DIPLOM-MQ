@@ -451,69 +451,88 @@
     </div>
 
     <section class="shop">
-        <div class="shop_wraper">
-            <h3 class="shop-title">Наши изделия</h3>
-            <div class="shop-content">
-                <article class="shop-item">
-                    <picture class="item-img">
-                        <source media="(min-width: 1200px)" srcset="imges/shop-item-desk1.jpg">
-                        <source media="(min-width: 641px)" srcset="imges/shop-item-tablet1.jpg">
-                        <source media="(min-width: 1px)" srcset="imges/shop-item-mobile1.jpg">
-                        <img src="images/shop-item-desk1.jpg" alt="shop-item">
-                    </picture>
-                    <div class="item-contain">
-                        <h3 class="shop-item-title">Подушки на диван</h3>
-                        <span class="shop-item-text">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="info-link">здесь</a>.</span>
-                        <div class="price-contain">
-                            <div class="price">
-                                <div class="old-price">1000</div>
-                                <div class="new-price">800</div>
-                            </div>
-                            <a href="#0" class="in-shop-link"> В магазин</a>
-                        </div>
-                    </div>
-                </article>
-                <article class="shop-item">
-                    <picture class="item-img">
-                        <source media="(min-width: 1200px)" srcset="imges/shop-item-desk2.jpg">
-                        <source media="(min-width: 641px)" srcset="imges/shop-item-tablet2.jpg">
-                        <source media="(min-width: 1px)" srcset="imges/shop-item-mobile2.jpg">
-                        <img src="images/shop-item-desk2.jpg" alt="shop-item">
-                    </picture>
-                    <div class="item-contain">
-                        <h3 class="shop-item-title">Кукла «Зайчик»</h3>
-                        <span class="shop-item-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0" class="info-link">весенняя серия постов</a> в блоге и несколько подкастов.</span>
-                        <div class="price-contain">
-                            <div class="price">
-                                <div class="old-price"></div>
-                                <div class="new-price">3500</div>
-                            </div>
-                            <a href="#0" class="in-shop-link"> В магазин</a>
-                        </div>
-                    </div>
-                </article>
-                <article class="shop-item shop-item-last">
-                    <picture class="item-img">
-                        <source media="(min-width: 1200px)" srcset="imges/shop-item-desk3.jpg">
-                        <source media="(min-width: 641px)" srcset="imges/shop-item-tablet3.jpg">
-                        <source media="(min-width: 1px)" srcset="imges/shop-item-mobile3.jpg">
-                        <img src="images/shop-item-desk3.jpg" alt="shop-item">
-                    </picture>
-                    <div class="item-contain">
-                        <h3 class="shop-item-title">Шестиугольная рамка</h3>
-                        <span class="shop-item-text">Необычная рамка для украшения дома из видео <a href="#0" class="info-link">«Как сделать рамку из подручных средств за 30 минут»</a>.</span>
-                        <div class="price-contain">
-                            <div class="price">
-                                <div class="old-price">500</div>
-                                <div class="new-price">400</div>
-                            </div>
-                            <a href="#0" class="in-shop-link"> В магазин</a>
-                        </div>
-                    </div>
-                </article>
+        <h3 class="shop__header">Наши изделия</h3>
+        
+        <div class="shop_items">
+          <div class="shop__item">
+            <picture class="shop__item-img">
+              <source media="(min-width: 1200px)" srcset="imges/shop-item-desk1.jpg">
+              <source media="(min-width: 641px)" srcset="imges/shop-item-tablet1.jpg">
+              <source media="(max-width: 640px)" srcset="imges/shop-item-mobile1.jpg">
+              <img src="images/shop-item-desk1.jpg" alt="Подушка с надписью">
+            </picture>
+            <div class="shop__description">
+              <div class="shop__title">
+                <p>Подушки на диван</p>
+              </div>
+              <div class="shop__text">
+                <p>Набор из двух подушек с модными принтами. Видео о создании <a class="shop__text-link" href="#0">здесь</a>.</p>
+              </div>
+              <div class="shop__description-footer">
+                <div class="shop__price">
+                  <div class="shop__price-old">1000 ₽</div>
+                  <div class="shop__price-new">800 ₽</div>
+                </div>
+                <div class="shop__link">
+                  <a href="#0" class="shop__link-shop">В магазин</a>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="shop__item">
+            <picture class="shop__item-img">
+              <source media="(min-width: 1200px)" srcset="imges/shop-item-desk2.jpg">
+              <source media="(min-width: 641px)" srcset="imges/shop-item-tablet2.jpg">
+              <source media="(max-width: 640px)" srcset="imges/shop-item-mobile2.jpg">
+              <img src="images/shop-item-desk2.jpg" alt="кукла">
+            </picture>
+            <div class="shop__description">
+              <div class="shop__title">
+                <p>Кукла «Зайчик»</p>
+              </div>
+              <div class="shop__text">
+                <p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="shop__text-link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+              </div>
+              <div class="shop__description-footer">
+                <div class="shop__price">
+                  <div class="shop__price-new">3500 ₽</div>
+                </div>
+                <div class="shop__link">
+                  <a href="#0" class="shop__link-shop">В магазин</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="shop__item">
+            <picture class="shop__item-img">
+              <source media="(min-width: 1200px)" srcset="imges/shop-item-desk3.jpg">
+              <source media="(min-width: 641px)" srcset="imges/shop-item-tablet3.jpg">
+              <source media="(max-width: 640px)" srcset="imges/shop-item-mobile3.jpg">
+              <img src="imges/shop-item-desk3.jpg" alt="рамка">
+            </picture>
+            <div class="shop__description">
+              <div class="shop__title">
+                <p>Шестиугольная рамка</p>
+              </div>
+              <div class="shop__text">
+                <p>Необычная рамка для украшения дома из видео <a class="shop__text-link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
+              </div>
+              <div class="shop__description-footer">
+                <div class="shop__price">
+                  <div class="shop__price-old">500 ₽</div>
+                  <div class="shop__price-new">400 ₽</div>
+                </div>
+                <div class="shop__link">
+                  <a href="#0" class="shop__link-shop">В магазин</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
+
 
     <footer class="footer">
         <div class="footer-wrapper">
