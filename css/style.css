@@ -1441,8 +1441,8 @@ body {
 
   .shop_items {
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 4.6%;
+    width: calc(50% - 12px);
+    padding: 0 3%;
   }
   .shop__item:nth-child(n+1) {
     margin-bottom: 30px;
