@@ -1,0 +1,138 @@
+@media (max-width: 640px) {
+  .wrapper {
+    width: 100vw;
+    max-width: 640px;
+    align-items: center;
+  }
+ 
+  .header {
+    background-image: url("../images/banner-mobile.jpg");
+  }
+  
+  .logo {
+    width: 100%;
+    height: auto;
+    margin-top: 235px;
+    order: 2;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-logo {
+    width: 75vw;
+    height: auto;
+  }
+
+  .menu-burger {
+    order: 1;
+    align-self: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .inner-header {
+    flex-direction: column;
+  }
+
+  .menu-burger {
+    order: 1;
+  }
+
+  .welcome-title {
+    max-width: 640px;
+    margin-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+  }
+
+  .trends-item {
+    width: 100%;
+    margin-bottom: 3px;
+  }
+
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .aside-wrapper {
+    width: 100%;
+    margin-top: 44px;
+  }
+
+  .inner-search {
+    max-width: 640px;
+  }
+
+  .label-search {
+    flex-grow: 1;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .inner-article::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    border-bottom: 3px solid #eee;
+  }
+
+  .inner-article {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .article-image {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .paragraph {
+    margin-top: 1.5em;
+  }
+
+  .flex-container {
+    width: 100vw;
+  }
+
+  .flex-container:nth-child(n+2) {
+    margin-top: 2em;
+  }
+
+  
+  .inner-items-social {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .popup-container {
+    top: 8vh;
+    bottom: 7vh;
+    right: 4vw;
+    left: 4vw;
+    width: 92vw;
+    height: 85vh;
+     max-width: 330px;
+  }
+}

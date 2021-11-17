@@ -1,0 +1,133 @@
+@media (max-width: 1199px) {
+  .menu {
+    display: none;
+  }
+
+  .burger-link {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .menu-burger {
+    display: flex;
+    align-self: center;
+    position: relative;
+    width: 25px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+
+  .burger-span {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  .inner-article::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    border-bottom: 3px solid #eee;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1199px) {
+  .header {
+    background-image: url("../images/banner-bg-tablet.jpg");
+  }
+
+  .wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .container {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  .main {
+    width: calc(90% - 273px);
+  }
+
+  .trends-item {
+    width: 49.8%;
+  }
+
+  .trends-item:nth-child(1),
+  .trends-item:nth-child(2) {
+    margin-bottom: 3px;
+  }
+
+  .inner-article {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inner-image {
+    width: 100%;
+  }
+
+  .article-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 17px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .paragraph {
+    width: 100%;
+  }
+
+  .flex-container {
+    width: 47.8%;
+  }
+
+  .flex-container:nth-child(3) {
+    margin-top: 30px;
+  }
+
+  .inner-items-social {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .popup-container {
+    top: 15vh;
+    bottom: 10vh;
+    right: 25vw;
+    left: 25vw;
+    width: 50vw;
+    height: 61vh;
+    font-size: 10px;
+  }
+
+  .popup-title {
+    font-size: 1.6em;
+  }
+
+  .aside-title {
+    margin-bottom: 2.5em;
+  }
+
+  .form-hint {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  .select {
+    height: 4em;
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+}
